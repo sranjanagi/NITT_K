@@ -11,7 +11,7 @@ edit -->
 </head>
 
 <body>
-    <div id="experiment">
+    <div id="Position analysis of Grashof four bar mechanism ">
         <!-- The Experiment Document Container-->
         <!-- The lab Header contains the logo and the name of the lab,
   usually displayed on the top of the page-->
@@ -377,19 +377,26 @@ mso-fareast-font-family:"Times New Roman";}
 
                             <p class="MsoNormal" style="line-height: 150%;">
                             
-FREE VIBRATION OF CANTILEVER BEAM	Theory
+Position analysis of Grashoffour bar mechanism
+	Theory
 Learning objectives
-After completing this simulation experiment one should be able to
-Model a given real system to an equivalent simplified model of a cantilever beam with suitable assumptions / idealisations
-Calculate the stiffness of a real system which is assumed to be equivalent of a cantilever beam
-Determine the mass of the system actively participating in dynamics
-Determine the natural frequency of a given system equated to a cantilever beam
-Determine the influence of material properties like Youngs modules (E) and density  ( ) in dynamics
-Determine the influence of cross section, length of cantilever beam  in dynamics
-Cantilever Beam Introduction
-Look at the few of the real systems shown below,try to make suitable assumptions to deduce the system to a cantilever beam.
+After completing this simulation experiment one should be able toDetermine the location CG of any given link in a Grashof four bar
+mechanismDetermine the output link angle of a G
+rashof four bar mechanism for any given crank angle 
+Calculate the transmission angle of a given Grashof four bar mechanism atany given crank angle
+
+Synthesis length of a Grashof four bar mechanism for a given conditionsBasic theory is given under different subsections in the same document. 
 
-An aircraft wing as a cantilever beamAn atomic force probe 
+
+INTRODUCTION
+
+Four Bar Mechanism Grashof Inversions Double crank mechanism
+Crank-rocker mechanism Double-rocker mechanism Parallel crank
+mechanism Position analysis,Velocity analysis Acceleration analysis
+
+
+Four Bar Mechanism
+
 
 <img src="../images/im2.jpg">
 <img src="../images/im1.jpg">
@@ -1055,7 +1062,7 @@ mso-fareast-font-family:"Times New Roman";}
                             • Balco (rare)<br>
                             • Tungsten (rare)<br>
                             <br>
- 
+<section> 
 
                 <section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
