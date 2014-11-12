@@ -395,7 +395,7 @@ Crank-rocker mechanism Double-rocker mechanism Parallel crank
 mechanism Position analysis,Velocity analysis Acceleration analysis
 
 
-Four Bar Mechanism
+Four Bar M
 
 
 <img src="../images/im2.jpg">
@@ -405,664 +405,118 @@ Four Bar Mechanism
 
 
 
+position analysis of Grashof four bar mechanism
 
 
-A tower crane  overhang is like a cantilever beam
-
-						A double overhang folding bridge
-A system is said to be a cantilever beam system if one end of the system is rigidly fixed to a support and the other end is free to move.
-Vibration analysis of a cantilever beam system is important as it can explain and help us analyse a number of real life systems. The following few examples can be simplified to a cantilever beam, thereby helping us make design changes accordingly for the most efficient systems.
-
-To understand the effect of free vibration on the cantilever beam, we need to understand and calculate the following parameters.
-Stiffness of the cantilever beam.
-Mass of the cantilever beam. 
-We can determine the stiffness of the system through simple equations from strength of material.  
-
-Where
-K = Stiffness of system. (N/m)
-E = Young s Modulus of the material. ()
-I = Area moment of inertia. ()
-L = Effective length of Cantilever Beam (m) 
-
-Assumptions made during modelling and analysis:
-The mass (M) of the whole system is considered to be lumped at the free end
-No energy consuming element (damping ) present in the system ie. undamped vibration 
-The complex cross section and type of material of the real system has been simplified to equate to a cantilever beam
-
-The fundamental natural frequency  , by definition is
-(radians/second)
-
-Since the cantilever beam is undergoing free vibration, the governing differential equation of the system considering undamped free vibration can be given by
- ;
-
-Lets try to understand these equations by doing a few simple simulations, go to next tab procedure to find out how to run the simulation to EXPLORE (expR) and to EXPERIMENT (expT). A talking tutorial or a self-running demo with narration can be seen at EXPLAIN (expN)
 
 
-</p>
+Grashoff’s Law:
+For a planar four bar linkage, the sum of the shortest and longest links cannot be greater
+than the sum of the remaining
+links if there is to be continuous relative rotation between two
+member
 
-                            <p class="MsoNormal" style="line-height: 150%;">
-                            <b><span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            Prerequisite</span></b> <b><span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            </span></b><!--[if gte mso 9]&gt;&lt;xml&gt;
-&lt;w:WordDocument&gt;
-&lt;/w:LatentStyles&gt;
-&lt;/xml&gt;&lt;![endif]--><!--[if gte mso 10]&gt;
-&lt;style&gt;
-/* Style Definitions */
-table.MsoNormalTable
-{mso-style-name:"Table Normal";
-&lt;![endif]--><span lang="EN-IN" style=
-'font-size: 12pt; font-family: "Verdana","sans-serif";'><br></span><span lang="EN-IN"
-                            style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'><br></span></p>
 
-                            <p class="MsoNormal" style=
-                            "line-height: 150%; text-align: right;"><a href=
-                            "http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
-                            Back To Experiment List</span></a></p>
-                            <!--[if gte mso 9]&gt;&lt;xml&gt;
-&lt;/style&gt;
-&lt;![endif]-->
 
-                            <p class="PreformattedText"><span lang="EN-IN"
-                            style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            Before performing the practical on RTD one must be
-                            well versed with:</span></p>
 
-                            <p class="PreformattedText"><span lang="EN-IN"
-                            style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            &nbsp;</span></p>
+Inversions
 
-                            <p class="PreformattedText" style=
-                            "margin-left: 0.5in; text-indent: -0.25in;">
-                            <span lang="EN-IN" style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            <span style="">1.<span style=
-                            'font: 7pt "Times New Roman";'>&nbsp;&nbsp;</span></span></span>
-                            <span lang="EN-IN" style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            Importance of temperature measurement.</span></p>
+A mechanism has been defined above as a kinematic
+chain in which one of the links is fixed. From
+the four bar mechanism, different versions of each of them can be obtained by fixing
+any one of
+the links p, q l or s
+. Such different versions, which can be obtained by fixing any of the different
+links, are c
+alled its “Inversions”. Many a time, a particular inversion of a mechanism may give
+rise to different mechanisms of practical utility, when the proportions of the link lengths are
+changed.
+By this principle of inversion of a fourbar chain, several useful
+mechanisms can be obtained.
+There are three inversions of four bar mechanisms, which are obtained by fixing different links of
+the kinematic chain. They are:
 
-                            <p class="PreformattedText"><span lang="EN-IN"
-                            style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            &nbsp;</span></p>
+a)
+Double Crank Mechanism
+b)
+Crank Rocker Mechanism
+c)
+Double Rocker Mechanism
 
-                            <p class="PreformattedText" style=
-                            "margin-left: 0.5in; text-indent: -0.25in;">
-                            <span lang="EN-IN" style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            <span style="">2.<span style=
-                            'font: 7pt "Times New Roman";'>&nbsp;&nbsp;</span></span></span>
-                            <span lang="EN-IN" style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            Various units of temperature measurement and
-                            conversion of one unit to another.</span></p>
 
-                            <p class="PreformattedText"><span lang="EN-IN"
-                            style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            &nbsp;</span></p>
 
-                            <p class="PreformattedText" style=
-                            "margin-left: 0.5in; text-indent: -0.25in;">
-                            <span lang="EN-IN" style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            <span style="">3.<span style=
-                            'font: 7pt "Times New Roman";'>&nbsp;&nbsp;</span></span></span>
-                            <span lang="EN-IN" style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            Knowledge of various methods of temperature
-                            measurement.</span></p>
+Double Crank Mechanism
+<img>
 
-                            <p class="PreformattedText"><span lang="EN-IN"
-                            style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            &nbsp;</span></p>
+A
+double crank
+converts rotary motion from a crank to a second crank or link in a different
+plane or axis. It is also known as crank
+-
+crank, drag
+-
+crank or rotary
+-
+rotary converter. The links p,
+q and l shown above rotate through one complete revolution. This is one of the
+first inversions of
+four
+-
+bar mechanisms.
+In this discussion, let’s call the link‘s’ the frame as the fixed link. We will call the link ‘q’ the crank,
+‘p’ the coupler and ‘l’ the lever for now. Crank is not defined as the link, which is attached to the
+dr
+iver shaft; rather it’s the link, which does a complete revolution. And in this configuration, as
+there are two links, both q and l, which revolves completely about the hinged point on the frame,
+both of them, is cranks.
+The term is commonly used in automo
+tive technology for the link in a four bar steering linkage
+that converts rotation of a steering arm to a center link and eventually to tie
+-
+rod links which
+pivot the wheels to be steered. A double crank is used when the steering arm operates in a plane
+abo
+ve the other links. The double crank converts the sweeping arc of the steering arm to linear
+motion in the plane of the other steering links
 
-                            <p class="PreformattedText" style=
-                            "margin-left: 0.5in; text-indent: -0.25in;">
-                            <span lang="EN-IN" style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            <span style="">4.<span style=
-                            'font: 7pt "Times New Roman";'>&nbsp;&nbsp;</span></span></span>
-                            <span lang="EN-IN" style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            Meaning of terms like process lag, positive and
-                            negative temperature coefficient, negative
-                            temperature, virtual temperature, etc.</span></p>
 
-                            <p class="PreformattedText"><span lang="EN-IN"
-                            style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            &nbsp;</span></p>
 
-                            <p class="PreformattedText" style=
-                            "margin-left: 0.5in; text-indent: -0.25in;">
-                            <span lang="EN-IN" style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            <span style="">5.<span style=
-                            'font: 7pt "Times New Roman";'>&nbsp;&nbsp;</span></span></span>
-                            <span lang="EN-IN" style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            Knowledge of active and passive
-                            transducers.</span></p>
+Crank-Rocker Mechanism<
+<img>
 
-                            <p class="PreformattedText"><span lang="EN-IN"
-                            style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            &nbsp;</span><span lang="EN-IN" style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif";'><br></span><span lang="EN-IN"
-                            style=
-                            'font-size: 12pt; font-family: "Verdana","sans-serif";'><br>
-                            &nbsp;</span> <b><span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            Temperature</span></b></p>
 
-                            <p class="MsoNormal" style=
-                            "margin-bottom: 0.0001pt; line-height: 150%;">
-                            <span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            Temperature is a measure of the average heat or
-                            thermal energy of the particles in a substance.
-                            Since it is an average measurement, it does not
-                            depend on the number of particles in an object. In
-                            that sense it does not depend on the size of it.
-                            For example, the temperature of a small cup of
-                            boiling water is the same as the temperature of a
-                            large pot of boiling water. Even if the large pot
-                            is much bigger than the cup and has millions and
-                            millions more water molecules. The basic unit of
-                            temperature (T) in the International System of
-                            Units (SI) is the Kelvin (K). The commonly used
-                            other units of temperature are Degree Celsius (°C)
-                            and Degree Fahrenheit (°F).</span></p>
+In a four bar linkage, if the shorter side link revolves and the other rocks (i.e., oscillates), it is
+called a crank-rocker mechanism.
+In this case, there is only a slight change, leave
+the smallest side and connect any of its adjacent
+side as the frame. Then (in figure) the smallest side ‘s’ will have full 360 degree revolution while
+the other link adjacent to the frame has only oscillating motion (link p). This kind of mechanism
+is hence called a crank-lever mechanism or a crank-rocker mechanism or a rotary-oscillatingconverter
 
-                            <p class="MsoNormal" style=
-                            "margin-bottom: 0.0001pt; line-height: 150%;">
-                            &nbsp;</p>
+Double-Rocker Mechanism
 
-                            <p class="MsoNormal" style="line-height: 150%;">
-                            <span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            &nbsp;<b>&nbsp; Electrical
-                            Resistance</b></span></p>
 
-                            <p class="MsoNormal" style=
-                            "margin-bottom: 0.0001pt; line-height: 150%;">
-                            <span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            The electrical resistance of an object is a measure
-                            of its opposition to the flow of an electric
-                            current. For a wide range of materials and
-                            conditions, the electrical resistance does not
-                            depend on the amount of current through or the
-                            potential difference (voltage) across the object.
-                            That means the resistance R is constants for the
-                            given temperature and material. Therefore, the
-                            resistance of an object can be defined as the ratio
-                            of voltage to current, in accordance with Ohm’s
-                            Law:</span></p>
+A linkage in which no link undergoes entire 360-degree revolution but only oscillations is known
+as adouble-levermechanism.This linkage results when the shortest side in the mechanism is made the coupler. The other t
+wo links only get to oscillate in their place. A linkage in which the sum of the longest and shortest
+link is less than the sum of the other two sides, is known as a Class I mechanism, otherwise it’s
+Class II. This mechanism is achieved when it is Class II. It’s also called rocker-rocker mechanism,double-rocker mechanism or oscillating oscillating-converter
 
-                            <p class="MsoNormal" style=
-                            "margin-bottom: 0.0001pt; line-height: 150%;">
-                            &nbsp;</p>
+Parallel Crank Mechanism
+<img>
+If in a 4 bar linkage, two opposite links are parallel and equal in length, then any of the links can
+be made fixed, regardless, the two adjacent links will always act as a pair of cranks, i.e. , both w
+ill
+have complete revolution about their joints on the frame.
+The use of such mechanism is made in coupled wheels of locomotives in which the rotary motion
+of one wheel is transmitted to the other wheel.
 
-                            <p class="MsoNormal" style=
-                            "margin-bottom: 0.0001pt; line-height: 150%;">
-                            <span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            &nbsp;</span><span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            R = V/I</span></p>
+Position analysis of four bar mechanism
+<img>
 
-                            <p class="MsoNormal" style=
-                            "margin-bottom: 13.5pt; line-height: 150%;">
-                            <span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            The unit of resistance is ohm (Ω).</span></p>
 
-                            <p class="MsoNormal" style=
-                            "font-weight: bold; line-height: 150%; margin-bottom: 13.5pt">
-                            <span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            &nbsp;</span></p>
 
-                            <p class="MsoNormal" style=
-                            "margin-bottom: 13.5pt; line-height: 150%;">
-                            <b><span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            &nbsp;</span></b><b><span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>Temperature
-                            Measurement using RTD</span></b></p>
-
-                            <p class="MsoNormal" style=
-                            "margin-bottom: 13.5pt; line-height: 150%;">
-                            <span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            For measurement of Temperature number of sensors
-                            are available. One of the most linear, stable, and
-                            reproducible temperature sensors is the RTD,
-                            Resistance Temperature Detector. In RTD, the&nbsp;
-                            output resistance changes with temperature. RTD is
-                            a positive temperature coefficient device. The
-                            resistance of the metal increases with temperature.
-                            The resistive property of the metal is called its
-                            resistivity. The resistive property defines length
-                            and cross sectional area required to fabricate an
-                            RTD of a given value. The resistance is
-                            proportional to length and inversely proportional
-                            to the cross sectional area and is given by the
-                            relationship</span></p>
-
-                            <p class="MsoNormal" style=
-                            "margin-bottom: 13.5pt; line-height: 150%; text-align: center;">
-                            <span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            R = ρl/A</span><span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>&nbsp;&nbsp;</span></p>
-
-                            <p class="MsoNormal" style="line-height: 150%;">
-                            <span style=
-                            "font-size: 12pt; line-height: 150%;">&nbsp;</span><!--[if gte mso 9]&gt;&lt;xml&gt;
-&lt;w:WordDocument&gt;
-&lt;w:View&gt;Normal&lt;/w:View&gt;
-&lt;w:Zoom&gt;0&lt;/w:Zoom&gt;
-&lt;w:TrackMoves /&gt;
-font-family:"Times New Roman","serif";
-mso-fareast-font-family:"Times New Roman";}
-&lt;/style&gt;
-&lt;![endif]--><span style=
-'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>Where
-'R' is resistance of the metal,</span> <span class="apple-converted-space">
-                            <span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            '</span></span><span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>ρ'
-                            is the resistivity of the metal</span><span class=
-                            "apple-converted-space"><span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>,
-                            'l'</span></span> <span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            is the length of the metal and 'A' is the area of
-                            cross section of the metal.</span></p>
-
-                            <p class="MsoNormal" style=
-                            "line-height: 150%; text-align: center;">
-                            &nbsp;<img alt="" height="169" src=
-                            "../images/userfiles/5/image/COEP_SMS_Lab/RTD_resi%20element%281%29.jpg"
-                            width="261"></p>
-
-                            <p class="MsoNormal" style="line-height: 150%;">
-                            <!--[if !mso]&gt;
-&lt;style&gt;
-v:* {behavior:url(#default#VML);}
-o:* {behavior:url(#default#VML);}
-w:* {behavior:url(#default#VML);}
-.shape {behavior:url(#default#VML);}
-&lt;/style&gt;
-&lt;![endif]--><!--[if gte mso 9]&gt;&lt;xml&gt;
-&lt;w:WordDocument&gt;
-&lt;w:View&gt;Normal&lt;/w:View&gt;
-&lt;w:Zoom&gt;0&lt;/w:Zoom&gt;
-&lt;w:TrackMoves&gt;false&lt;/w:TrackMoves&gt;
-&lt;w:TrackFormatting /&gt;
-&lt;w:PunctuationKerning /&gt;
-&lt;w:ValidateAgainstSchemas /&gt;
-&lt;w:SaveIfXMLInvalid&gt;false&lt;/w:SaveIfXMLInvalid&gt;
-&lt;w:IgnoreMixedContent&gt;false&lt;/w:IgnoreMixedContent&gt;
-&lt;w:AlwaysShowPlaceholderText&gt;false&lt;/w:AlwaysShowPlaceholderText&gt;
-&lt;w:DoNotPromoteQF /&gt;
-&lt;w:LidThemeOther&gt;EN-US&lt;/w:LidThemeOther&gt;
-&lt;w:LidThemeAsian&gt;X-NONE&lt;/w:LidThemeAsian&gt;
-&lt;w:LidThemeComplexScript&gt;X-NONE&lt;/w:LidThemeComplexScript&gt;
-&lt;w:Compatibility&gt;
-&lt;w:BreakWrappedTables /&gt;
-&lt;w:SnapToGridInCell /&gt;
-&lt;w:WrapTextWithPunct /&gt;
-&lt;w:UseAsianBreakRules /&gt;
-&lt;w:DontGrowAutofit /&gt;
-&lt;w:SplitPgBreakAndParaMark /&gt;
-&lt;w:DontVertAlignCellWithSp /&gt;
-&lt;w:DontBreakConstrainedForcedTables /&gt;
-&lt;w:DontVertAlignInTxbx /&gt;
-&lt;w:Word11KerningPairs /&gt;
-&lt;w:CachedColBalance /&gt;
-&lt;/w:Compatibility&gt;
-&lt;w:BrowserLevel&gt;MicrosoftInternetExplorer4&lt;/w:BrowserLevel&gt;
-&lt;m:mathPr&gt;
-&lt;m:mathFont m:val="Cambria Math" /&gt;
-&lt;m:brkBin m:val="before" /&gt;
-&lt;m:brkBinSub m:val="&#45;-" /&gt;
-&lt;m:smallFrac m:val="off" /&gt;
-&lt;m:dispDef /&gt;
-&lt;m:lMargin m:val="0" /&gt;
-&lt;m:rMargin m:val="0" /&gt;
-&lt;m:defJc m:val="centerGroup" /&gt;
-&lt;m:wrapIndent m:val="1440" /&gt;
-&lt;m:intLim m:val="subSup" /&gt;
-&lt;m:naryLim m:val="undOvr" /&gt;
-&lt;/m:mathPr&gt;&lt;/w:WordDocument&gt;
-&lt;/xml&gt;&lt;![endif]--><!--[if gte mso 9]&gt;&lt;xml&gt;
-&lt;w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
-DefSemiHidden="true" DefQFormat="false" DefPriority="99"
-LatentStyleCount="267"&gt;
-&lt;w:LsdException Locked="false" Priority="0" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Normal" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="heading 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 7" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 8" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 9" /&gt;
-&lt;w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption" /&gt;
-&lt;w:LsdException Locked="false" Priority="10" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Title" /&gt;
-&lt;w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font" /&gt;
-&lt;w:LsdException Locked="false" Priority="0" Name="Body Text" /&gt;
-&lt;w:LsdException Locked="false" Priority="11" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Subtitle" /&gt;
-&lt;w:LsdException Locked="false" Priority="0" Name="Hyperlink" /&gt;
-&lt;w:LsdException Locked="false" Priority="22" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Strong" /&gt;
-&lt;w:LsdException Locked="false" Priority="0" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Emphasis" /&gt;
-&lt;w:LsdException Locked="false" Priority="59" SemiHidden="false"
-UnhideWhenUsed="false" Name="Table Grid" /&gt;
-&lt;w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text" /&gt;
-&lt;w:LsdException Locked="false" Priority="1" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="No Spacing" /&gt;
-&lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Shading" /&gt;
-&lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light List" /&gt;
-&lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Grid" /&gt;
-&lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
-UnhideWhenUsed="false" Name="Dark List" /&gt;
-&lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Shading" /&gt;
-&lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful List" /&gt;
-&lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Grid" /&gt;
-&lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Shading Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light List Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Grid Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 1 Accent 1" /&gt;
-&lt;w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision" /&gt;
-&lt;w:LsdException Locked="false" Priority="34" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="List Paragraph" /&gt;
-&lt;w:LsdException Locked="false" Priority="29" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Quote" /&gt;
-&lt;w:LsdException Locked="false" Priority="30" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Intense Quote" /&gt;
-&lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 2 Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
-UnhideWhenUsed="false" Name="Dark List Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Shading Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful List Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Grid Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Shading Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light List Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Grid Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 1 Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 2 Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
-UnhideWhenUsed="false" Name="Dark List Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Shading Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful List Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Grid Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Shading Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light List Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Grid Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 1 Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 2 Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
-UnhideWhenUsed="false" Name="Dark List Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Shading Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful List Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Grid Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Shading Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light List Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Grid Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 1 Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 2 Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
-UnhideWhenUsed="false" Name="Dark List Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Shading Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful List Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Grid Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Shading Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light List Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Grid Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 1 Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 2 Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
-UnhideWhenUsed="false" Name="Dark List Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Shading Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful List Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Grid Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Shading Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light List Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Grid Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 1 Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 2 Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
-UnhideWhenUsed="false" Name="Dark List Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Shading Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful List Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Grid Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="19" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis" /&gt;
-&lt;w:LsdException Locked="false" Priority="21" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis" /&gt;
-&lt;w:LsdException Locked="false" Priority="31" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference" /&gt;
-&lt;w:LsdException Locked="false" Priority="32" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Intense Reference" /&gt;
-&lt;w:LsdException Locked="false" Priority="33" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Book Title" /&gt;
-&lt;w:LsdException Locked="false" Priority="37" Name="Bibliography" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading" /&gt;
-&lt;/w:LatentStyles&gt;
-&lt;/xml&gt;&lt;![endif]--><!--[if gte mso 10]&gt;
-&lt;style&gt;
-/* Style Definitions */
-table.MsoNormalTable
-{mso-style-name:"Table Normal";
-mso-tstyle-rowband-size:0;
-mso-tstyle-colband-size:0;
-mso-style-noshow:yes;
-mso-style-priority:99;
-mso-style-qformat:yes;
-mso-style-parent:"";
-mso-padding-alt:0in 5.4pt 0in 5.4pt;
-mso-para-margin-top:0in;
-mso-para-margin-right:0in;
-mso-para-margin-bottom:10.0pt;
-mso-para-margin-left:0in;
-line-height:115%;
-mso-pagination:widow-orphan;
-font-size:10.0pt;
-font-family:"Times New Roman","serif";
-mso-fareast-font-family:"Times New Roman";}
-&lt;/style&gt;
-&lt;![endif]--></p>
-
-                            <p class="MsoNormal" style="line-height: 150%;">
-                            <b><span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            &nbsp;Resistance Temperature Detector
-                            (RTD)</span></b><span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'><br></span><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'><br></span><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>Resistance
-                            Temperature Detector (RTD), as the name implies, is
-                            a sensor used to measure temperature by correlating
-                            the resistance with temperature. Most RTD elements
-                            consist of a length of fine coiled wire wrapped
-                            around a ceramic or glass core. The element is
-                            usually quite fragile, so it is often placed inside
-                            a sheathed probe to protect it. The RTD element is
-                            made from a pure metals as mentioned below. The
-                            material property to have predictable change in
-                            resistance as the temperature
-                            changes</span><span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>,
-                            is used to determine temperature.</span></p>
-
-                            <p class="MsoNormal" style=
-                            "margin-bottom: 0.0001pt; line-height: 150%; text-align: justify;">
-                            <span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            <br>
-                            Commonly used RTD Materials:<br>
-                            • Platinum (most popular and accurate)<br>
-                            • Nickel<br>
-                            • Copper<br>
-                            • Balco (rare)<br>
-                            • Tungsten (rare)<br>
-                            <br>
-<section> 
+ <section>
 
                 <section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
