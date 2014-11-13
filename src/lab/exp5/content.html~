@@ -7,15 +7,7 @@ edit -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({jax: ["input/TeX", "output/HTML-CSS"],tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
-	  "HTML-CSS": {  preferredFont: "STIX" }});
-</script>
-<script type="text/javascript"
-  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
+    <title>Velocity analysis of NonGrashof four bar mechanism</title>
 </head>
 
 <body>
@@ -384,26 +376,25 @@ mso-fareast-font-family:"Times New Roman";}
 &lt;![endif]--></p>
 
                             <p class="MsoNormal" style="line-height: 150%;">
-                            
+  
 
- <h3>Velocity analysis of four bar mechanism </h3><br>
-<img  height="169" src="../images/one.jpg"  width="261"><br>
-
- 
 Velocity analysis of four bar mechanism<br>
-Let $\varpi_2$, $\varpi_3$ and $\varpi_4$
-be the angular velocities of the links 2,3 and 4 respectively.<br>
-$\varpi_2$ is the input angular velocity of the link 2. Since the link lengths a, b and c are known and for the given<br>
-$\theta_2$ value,
-$\theta_3$ and $\theta_4$ can be determined using position analysis. The<br>
-angular velocities 3 and 4
-are given b<br>
-
- &nbsp &nbsp &nbsp $\omega_4=\frac{-a\omega_2\sin\left(\theta_3-\theta_2\right)}{c\sin\left(\theta_4-\theta3\right)}$ Eq. 1<br>
 
 
+An aircraft wing as a cantilever beamAn atomic force probe <br>
 
-&nbsp &nbsp &nbsp$\omega_3=\frac{-a\omega_2\sin\left(\theta_4-\theta_2\right)}{b\sin\left(\theta_4-\theta_3\right)}$ Eq.2<br>
+<img src="../images/im2.jpg"><br>
+
+
+Let 2, 3 and 4 be the angular velocities of the links 2,3 and 4 respectively. 2 is the<br>
+input angular velocity of the link 2. Since the link lengths a, b and c are known and<br>
+for the given 2 value, 3 and 4 can be determined using position analysis. The<br>
+angular velocities 3 and 4 are given by<br>
+
+
+
+equation 1<br>
+equation 2<br>
 
 
 </p>
@@ -500,9 +491,7 @@ table.MsoNormalTable
                             'font: 7pt "Times New Roman";'>&nbsp;&nbsp;</span></span></span>
                             <span lang="EN-IN" style=
                             'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                            Meaning of terms like process lag, positive and
-                            negative temperature coefficient, negative
-                            temperature, virtual temperature, etc.</span></p>
+                           </span></p>
 
                             <p class="PreformattedText"><span lang="EN-IN"
                             style=
@@ -535,7 +524,7 @@ table.MsoNormalTable
                             "margin-bottom: 0.0001pt; line-height: 150%;">
                             <span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                        </span></p>
+                           </span></p>
 
                             <p class="MsoNormal" style=
                             "margin-bottom: 0.0001pt; line-height: 150%;">
@@ -544,14 +533,13 @@ table.MsoNormalTable
                             <p class="MsoNormal" style="line-height: 150%;">
                             <span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            &nbsp;<b>&nbsp; Electrical
-                            Resistance</b></span></p>
+                            &nbsp;<b>&nbsp; </span></p>
 
                             <p class="MsoNormal" style=
                             "margin-bottom: 0.0001pt; line-height: 150%;">
                             <span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                          </span></p>
+                            </span></p>
 
                             <p class="MsoNormal" style=
                             "margin-bottom: 0.0001pt; line-height: 150%;">
@@ -569,7 +557,7 @@ table.MsoNormalTable
                             "margin-bottom: 13.5pt; line-height: 150%;">
                             <span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            The unit of resistance is ohm (Ω).</span></p>
+                            </span></p>
 
                             <p class="MsoNormal" style=
                             "font-weight: bold; line-height: 150%; margin-bottom: 13.5pt">
@@ -583,20 +571,20 @@ table.MsoNormalTable
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
                             &nbsp;</span></b><b><span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>Temperature
-                            Measurement using RTD</span></b></p>
+                            </span></b></p>
 
                             <p class="MsoNormal" style=
                             "margin-bottom: 13.5pt; line-height: 150%;">
                             <span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                         </span></p>
+                           </span></p>
 
                             <p class="MsoNormal" style=
                             "margin-bottom: 13.5pt; line-height: 150%; text-align: center;">
                             <span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            R = ρl/A</span><span style=
+                            </span><span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>&nbsp;&nbsp;</span></p>
 
                             <p class="MsoNormal" style="line-height: 150%;">
@@ -610,8 +598,7 @@ font-family:"Times New Roman","serif";
 mso-fareast-font-family:"Times New Roman";}
 &lt;/style&gt;
 &lt;![endif]--><span style=
-'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>Where
-'R' is resistance of the metal,</span> <span class="apple-converted-space">
+'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>,</span> <span class="apple-converted-space">
                             <span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
                             '</span></span><span style=
@@ -621,8 +608,7 @@ mso-fareast-font-family:"Times New Roman";}
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>,
                             'l'</span></span> <span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            is the length of the metal and 'A' is the area of
-                            cross section of the metal.</span></p>
+                            .</span></p>
 
                             <p class="MsoNormal" style=
                             "line-height: 150%; text-align: center;">
@@ -968,17 +954,7 @@ mso-fareast-font-family:"Times New Roman";}
                             &nbsp;Resistance Temperature Detector
                             (RTD)</span></b><span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'><br></span><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'><br></span><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>Resistance
-                            Temperature Detector (RTD), as the name implies, is
-                            a sensor used to measure temperature by correlating
-                            the resistance with temperature. Most RTD elements
-                            consist of a length of fine coiled wire wrapped
-                            around a ceramic or glass core. The element is
-                            usually quite fragile, so it is often placed inside
-                            a sheathed probe to protect it. The RTD element is
-                            made from a pure metals as mentioned below. The
-                            material property to have predictable change in
-                            resistance as the temperature
-                            changes</span><span style=
+                            </span><span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>,
                             is used to determine temperature.</span></p>
 
@@ -987,14 +963,9 @@ mso-fareast-font-family:"Times New Roman";}
                             <span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
                             <br>
-                            Commonly used RTD Materials:<br>
-                            • Platinum (most popular and accurate)<br>
-                            • Nickel<br>
-                            • Copper<br>
-                            • Balco (rare)<br>
-                            • Tungsten (rare)<br>
+                           
                             <br>
- <section>
+ 
 
                 <section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
@@ -1009,16 +980,9 @@ mso-fareast-font-family:"Times New Roman";}
                     <div class="content" id=
                     "experiment-article-section-4-content">
                         <div class="divContent">
-                            <p><a href="./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expN</a></p>
-                        </div>
-<div class="divContent">
-                            <p><a href="./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expR</a></p>
-                        </div>
-<div class="divContent">
-                            <p><a href="./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expT</a></p>
+                            <p><a href=
+                            "./FreeVibrationSDOF_expN_ver2.swf"
+                            target="_blank">FreeVibrationSDOF_expN_ver2</a></p>
                         </div>
                     </div>
 
@@ -1058,8 +1022,7 @@ mso-pagination:widow-orphan;
 font-size:10.0pt;
 font-family:"Times New Roman","serif";}
 &lt;/style&gt;
-&lt;![endif]--><big>Click on simulator tab and log in for working with
-simulator. The procedure for using simulator is as follows:</big></h3>
+&lt;![endif]--><big></big></h3>
 
                             <h3 style="color: red;"><big>
                             <!--[if gte mso 9]&gt;&lt;xml&gt;
@@ -1092,7 +1055,7 @@ mso-bidi-theme-font:minor-bidi;}
                             <p class="MsoNormal" style="line-height: 150%;">
                             <span lang="EN-IN" style=
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                            &nbsp;<b>Expt. 1:  MDV_Expt1_Procedure_FreeVib_CantiBeam-kvg-ver01</b></span></p>
+                            &nbsp;<b></b></span></p>
 
                             <p class="MsoNormal" style=
                             "font-weight: bold; line-height: 150%"><span lang=
@@ -1105,12 +1068,18 @@ mso-bidi-theme-font:minor-bidi;}
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
                             Aim</span></b><span lang="EN-IN" style=
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>:
-                            Study the change in resistance of RTD probe
-                            depending on the process temperature.</span></p>
+                           </span></p>
 
                             <p class="MsoNormal" style="line-height: 150%;">
                             <span lang="EN-IN" style=
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+
+<h3>FOUR BAR MECHANISM TUTORIAL</h3>
+
+
+<img  height="1400" src="../images/fourbar_nongrashof_procedure_ver01.jpg"  width="600"><br>
+
+
 
 
                             </span></p>
@@ -1118,7 +1087,7 @@ mso-bidi-theme-font:minor-bidi;}
                             <p class="MsoNormal" style="line-height: 150%;">
                             <b><span lang="EN-IN" style=
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                            Step by step Procedure</span></b><span lang="EN-IN"
+                            </span></b><span lang="EN-IN"
                             style=
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>:</span></p>
 
@@ -1131,10 +1100,7 @@ mso-bidi-theme-font:minor-bidi;}
                                 <li class="MsoNormal" style=
                                 "line-height: 150%;"><span lang="EN-IN" style=
                                 'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                                Select the <strong>material</strong> of RTD you
-                                want to use.&nbsp; Temperature coefficient (α)
-                                for the same will be displayed on the screen.
-                                Note this value.</span></li>
+                               </span></li>
                             </ol>
 
                             <p class="MsoNormal" style="line-height: 150%;">
@@ -1236,11 +1202,7 @@ mso-bidi-theme-font:minor-bidi;}
                                 <li class="MsoNormal" style=
                                 "line-height: 150%;"><span lang="EN-IN" style=
                                 'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                                When the graph is displayed click
-                                <strong>Next</strong> tab to repeat the
-                                procedure with different reference
-                                resistance(R<sub>0</sub>) value and with&nbsp;
-                                different materials.</span></li>
+                               </span></li>
                             </ol>
 
                             <p class="MsoNormal" style="line-height: 150%;">
@@ -1265,9 +1227,7 @@ mso-bidi-theme-font:minor-bidi;}
                                 <li class="MsoNormal" style=
                                 "line-height: 150%;"><span lang="EN-IN" style=
                                 'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                                Study the graphs for RTD performance &nbsp;with
-                                different reference resistance values and
-                                different materials</span></li>
+                                </span></li>
                             </ol>
 
                             <p class="MsoNormal" style="line-height: 150%;">
@@ -1302,8 +1262,7 @@ mso-bidi-theme-font:minor-bidi;}
                                             <td colspan="2" style=
                                             "vertical-align:top;" width="70%">
                                             <span id="question">RTD is very
-                                            popular for temperature measurement
-                                            because of</span></td>
+                                           </span></td>
 
                                             <td colspan="3" width="3%">
                                             &nbsp;</td>
@@ -1387,8 +1346,7 @@ mso-bidi-theme-font:minor-bidi;}
 
                                             <td colspan="2" style=
                                             "vertical-align:top;" width="70%">
-                                            <span id="question">In the Pt100,
-                                            the suffix 100 refers
+                                            <span id="question">
                                             to</span></td>
 
                                             <td colspan="3" width="3%">
@@ -1416,9 +1374,7 @@ mso-bidi-theme-font:minor-bidi;}
                                                         style=
                                                         "padding-left:3px;">
                                                         <label for=
-                                                        "ans6061">Resistance at
-                                                        Room
-                                                        Temperature</label></td>
+                                                        "ans6061"></label></td>
                                                     </tr>
 
                                                     <tr>
