@@ -6,35 +6,36 @@ span.term {
 }
 
 
-#heading1 {
+
+#pillmenu {
 	height:50px;
 	margin:0 auto;
 	padding:0;
 	width:968px;
 }
 
-#heading1 ul {
+#pillmenu ul {
 	line-height:normal;
 	list-style:none outside none;
 	margin:0;
 	padding:0 0 0 10px;
 }
 
-#heading1 li {
+#pillmenu li {
 	background:url(../images/img03.gif) no-repeat scroll right top transparent;
 	float:left;
 	height:50px;
 }
 
-#heading1 li:hover {
+#pillmenu li:hover {
 
 }
 
-#heading1 li a#active_menu-nav {
+#pillmenu li a#active_menu-nav {
 	
 }
 
-#heading1 li a {
+#pillmenu li a {
 	border:medium none;
 	color:#FFFFFF;
 	display:block;
@@ -46,7 +47,7 @@ span.term {
 	text-decoration:none;
 }
 
-#heading1 li a:hover {
+#pillmenu li a:hover {
 	text-decoration:underline;
 }
 
