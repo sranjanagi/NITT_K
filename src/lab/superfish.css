@@ -1,13 +1,25 @@
 
 /*** ESSENTIAL STYLES ***/
 
-
+.searchbox{
+	padding-top:8px;
+	float:right;
+	padding-right:17px;
+	/*background:url(../images/search_bg.png) no-repeat bottom;*/
+}
 #pillmenu {
 	height:50px;
 	margin:0 auto;
 	padding:0;
 	width:968px;
 }
+#pillmenu li.item59{
+    padding-top: 10px;
+height: 6px;
+float: right;
+}
+
+
 
 #pillmenu ul {
 	line-height:normal;

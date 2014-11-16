@@ -135,7 +135,7 @@ small { font-size:85%; }
 strong, th { font-weight: bold; }
 
 td, td img { vertical-align:top;
-background-color: #00F; } 
+} 
 
 sub { vertical-align: sub; font-size: smaller; }
 sup { vertical-align: super; font-size: smaller; }
