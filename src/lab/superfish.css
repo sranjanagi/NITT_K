@@ -8,11 +8,6 @@
 	padding:0;
 	width:968px;
 }
-#pillmenu li.item59{
-    padding-top: 10px;
-height: 6px;
-float: right;
-}
 
 
 
@@ -154,7 +149,9 @@ ul.sf-menu li li li.sfHover ul {
 
 
 .sf-menu li:last-child, .sf-menu li.last-child {
-
+ padding-top: 10px;
+height: 6px;
+float: right;
 }
 
 .sf-menu li:hover, .sf-menu li.sfHover,
