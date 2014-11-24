@@ -388,7 +388,7 @@ Theory<br>
 
 
 
-<img  height="450" src= "../images/velscr1.png" width="600"><br>
+<img  height="400" src= "../images/velscr1.png" width="600"><br>
 Learning objectives
 fter completing this simulation experiment one should be able to
 
@@ -436,7 +436,7 @@ appears in most of the internal combustion engines including automobiles, trucks
 The slider-crank kinematic chain consists of four bodies linked with three cylindrical joints and one
 sliding or prismatic joint. It is used to change circular into reciprocating motion, or reciprocating into
 circular motion.
-<img  height="450" src= "../images/velscr2.png" width="600">
+<img  height="400" src= "../images/velscr2.png" width="600">
 
 The arm may be a bent portion of the shaft, or a separate arm attached to it. Attached to the end of
 Velocity analysis of slider crank mechanism
@@ -446,7 +446,7 @@ sliding motion, in and out.
 
 Position Analysis<br>
 
-<img  height="450" src= "../images/velscr3.png" width="600"><br>
+<img  height="400" src= "../images/velscr3.png" width="600"><br>
 
 Figure 1 shows a slider-crank mechanism in which the stroke-line of the slider doesn’t pass<br>
 through the axis of rotation of the crank. θ3 in clockwise direction from x-axis is taken as
@@ -461,7 +461,7 @@ equations
 
 Velocity Analysis<br>
 
-<img  height="450" src= "../images/velscr4.png" width="600"><br>
+<img  height="400" src= "../images/velscr4.png" width="600"><br>
 
 
 Let ̇ be the velocity of the slider, and ω3 be the angular velocity of the coupler link. Then,<br>
@@ -471,16 +471,16 @@ equation
 
 
 Acceleration Analysis<br>
-<img  height="450" src= "../images/velscr5.png" width="600"><br>
+<img  height="400" src= "../images/velscr5.png" width="600"><br>
 
 Differentiating the earlier equations from velocity analysis, we end up with the acceleration<br>
 data of the slider crank. With the prior knowledge of the angular acceleration of the crank, α2,
 the parameters such as the linear acceleration of the slider, ̈ , and the angular acceleration of
 the coupler, α3.
-equation<br>
+equation
 
 Inversions<br>
-<img  height="500" src= "../images/velscr6.png" width="600"><br>
+<img  height="400" src= "../images/velscr6.png" width="600"><br>
 
 Different mechanisms obtained by fixing different links of a kinematics chain are known as its<br>
 inversions.
@@ -492,31 +492,31 @@ A slider–crank chain has the following inversions: -
 First Inversion
 In this type of inversion CE is held fixed and A rotates around C along a circle and B slides back and
 forth along CE.<br>
-<img  height="450" src= "../images/velscr7.png" width="600"><br>
-<img  height="450" src= "../images/velscr8.png" width="600"><br>
+<img  height="400" src= "../images/velscr7.png" width="600"><br>
+<img  height="400" src= "../images/velscr8.png" width="600"><br>
 
 This is the most common type of inversion. It is used in reciprocating engine and compressor.
 Second Inversion
 In this type of inversion ‘C’ and ‘A’ are both held fixed and the link CE rotates in a circle
 around C. The slider B slides back and forth along the rotating CE.<br>
-<img  height="450" src= "../images/velscr9.png" width="600"><br>
+<img  height="400" src= "../images/velscr9.png" width="600"><br>
 Whitworth Quick-Return Mechanism<br>
 In this inversion of the slider-crank the slider guide link is made to rotate. This is called a quick-return
 mechanism. This linkage also converts rotary motion of the crank into oscillatory angular motion of
 the slider guide link. This mechanism is used in shaper machine tools for cutting metals. Joseph
 Whitworth was a 19th century British engineer and inventor.<br>
-<img  height="450" src= "../images/velscr10.png" width="600"><br>
+<img  height="400" src= "../images/velscr10.png" width="600"><br>
 Third Inversion<br>
 In this type of inversion A and B are both held fixed but the slider is allowed to swivel.<br>
-<img  height="450" src= "../images/velscr11.png" width="600"><br>
-<img  height="450" src= "../images/velscr12.png" width="600"><br>
+<img  height="400" src= "../images/velscr11.png" width="600"><br>
+<img  height="400" src= "../images/velscr12.png" width="600"><br>
 
 The oscillating cylinder engine is a form of a slider-crank mechanism. This mechanism is used often in door
 damper mechanisms. In the 19th century the oscillating cylinder was used on steam locomotives.
 Fourth Inversion
 In this type of inversion the slider B is held fixed and CE slides back and forth through the slider.<br>
 
-<img  height="450" src= "../images/velscr12.png" width="600"><br>
+<img  height="400" src= "../images/velscr12.png" width="600"><br>
 
 </p>
 
@@ -1083,7 +1083,7 @@ mso-fareast-font-family:"Times New Roman";}
                             <br>
                             
                             <br>
- </section>
+ 
 
                 <section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
@@ -1352,12 +1352,9 @@ mso-bidi-theme-font:minor-bidi;}
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'><br></span><span lang="EN-IN"
                             style=
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>&nbsp;</span></p>
-</section>
+
                             
-<section id="experiment-article-section-6">
-                    <div class="icon" id="experiment-article-section-6-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/manual.jpg"></div>
+
                     <div class="heading" id=
                     "experiment-article-section-6-heading">
                         Post Test
