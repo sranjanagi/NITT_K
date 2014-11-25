@@ -2,8 +2,7 @@
 
 <html class="no-js" lang="en">
 <head>
-
-<style type="text/css">
+ <style type="text/css">
     
 .sf-menu li:hover, .sf-menu li.sfHover,
 .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
@@ -16,6 +15,14 @@ background:none;
 }
     
   </style>
+
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(function($){ $("ul.sf-menu").supersubs({minWidth:10, maxWidth:30, extraWidth:0}).superfish({hoverClass:'sfHover', pathClass:'active', pathLevels:0, delay:800, animation:{height:'show'}, speed:'def', autoArrows:0, dropShadows:0}) });
+jQuery.event.special.hover.delay = 100;
+jQuery.event.special.hover.speed = 100;
+
+  </script>
 
     <!--It is a good practice to declare the encoding even for an 
   English Web site. One function of this is to tag is to "reset"
@@ -67,7 +74,20 @@ background:none;
 <script type="text/javascript" src="js/ga.js"></script>
 
 
+<script type="text/javascript">
 
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-29421183-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0];
+   s.parentNode.insertBefore(ga, s);
+ })();
+
+</script>
 
 
     <script type="text/javascript">
@@ -149,29 +169,6 @@ $(document).ready(function()
 <body>
     <div id="container"></div>
     <div id="hidden-content">
- 
-<script type="text/javascript">
-jQuery.noConflict();
-jQuery(function($){ $("ul.sf-menu").supersubs({minWidth:10, maxWidth:30, extraWidth:0}).superfish({hoverClass:'sfHover', pathClass:'active', pathLevels:0, delay:800, animation:{height:'show'}, speed:'def', autoArrows:0, dropShadows:0}) });
-jQuery.event.special.hover.delay = 100;
-jQuery.event.special.hover.speed = 100;
-
-  </script>
-
-<script type="text/javascript">
-
- var _gaq = _gaq || [];
- _gaq.push(['_setAccount', 'UA-29421183-1']);
- _gaq.push(['_trackPageview']);
-
- (function() {
-   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-   var s = document.getElementsByTagName('script')[0];
-   s.parentNode.insertBefore(ga, s);
- })();
-
-</script>
     <!-- Javascript at the bottom for fast page loading -->
     <!--<script type="text/javascript" src="js/MathJax/MathJax.js"> -->
     <!-- </script> -->
