@@ -7,12 +7,18 @@ edit -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Position analysis of slider crank mechanism
-</title>
+    <title></title>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({jax: ["input/TeX", "output/HTML-CSS"],tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+	  "HTML-CSS": {  preferredFont: "STIX" }});
+</script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 </head>
 
 <body>
-    <div id="experimet">
+    <div id="experiment">
         <!-- The Experiment Document Container-->
         <!-- The lab Header contains the logo and the name of the lab,
   usually displayed on the top of the page-->
@@ -377,127 +383,30 @@ mso-fareast-font-family:"Times New Roman";}
 &lt;![endif]--></p>
 
                             <p class="MsoNormal" style="line-height: 150%;">
-         
+                            
 
-<h3>Position analysis of slider crank mechanism</h3>
-
-<img  height="59" src="../images/poscr1.png"  width="49">
-
-Learning objectives
-
-After completing this simulation experiment one should be able to
-
- Determine the location of the piston of a reciprocating engine or compressor at
-   any given crank angle, for a given crank and connecting rod length
-  Determine the swing angle of connecting rod of a slider crank mechanism
- Determine the minimum bore diameter required for a given
- Explain the effect of
-ratio
-ratio
-Basic theory is given under different subsections in the same document.
-
-Slider crank mechanism
-analysis
-Inversions
-Fourth inversion
-Position analysis
-First inversion
-Velocity analysis
-Second inversion
-Acceleration
-Third inversion
-Slider Crank Mechanism
-The slider-crank mechanism is one of the most useful mechanisms in modern technology since it
-appears in most of the internal combustion engines including automobiles, trucks and small engines.
-The slider-crank kinematic chain consists of four bodies linked with three cylindrical joints and one
-sliding or prismatic joint. It is used to change circular into reciprocating motion, or reciprocating into
-circular motion.<br>
+<h3>Acceleration of a Four-Bar Mechanism</h3><br>
 
 
-<img  height="355" src="../images/poscr2.png"  width="461"><br>
+<img  height="169" src="../images/acce1.png"  width="261"><br>
+Letα2,α 3,and α 4 be the angular accelerations of the links 2,3 and 4 respectively. Given<br>
+α 2 is the input angular acceleration of the link 2. Since the link lengths a, b and c are<br>
+known and for the given  2 value,3 and  4 can be determined using position analysis<br>
+and given 2, the velocities 3 and 4 canbe found using velocity analysis as has<br>
+already been explained.<br>
+The angular accelerations can then be found by,<br>
 
 
-The arm may be a bent portion of the shaft, or a separate arm attached to it. Attached to the end of
-the crank by a pivot is a rod, usually called a connecting rod. The end of the rod attached to the
-crank moves in a circular motion, while the other end is usually constrained to move in a linear
-Position Analysis
-<img  height="355" src="../images/poscr3.png"  width="461"><br>
-Figure 1 shows a slider-crank mechanism in which the stroke-line of the slider doesn’t pass
-through the axis of rotation of the crank. θ3 in clockwise direction from x-axis is taken as
-negative.
-Then,
-equa
-Velocity Analysis<br>
-
-<img  height="355" src="../images/poscr4.png"  width="461"><br>
-
-
-Let ̇ be the velocity of the slider, and ω3 be the angular velocity of the coupler link. Then,
-from the data gleaned from the position analysis and the crank velocity, ω2, we have
-equa
-Acceleration Analysis<br>
-
-<img  height="355" src="../images/poscr5.png"  width="461"><br>
-
-Differentiating the earlier equations from velocity analysis, we end up with the acceleration
-data of the slider crank. With the prior knowledge of the angular acceleration of the crank, α2,
-the parameters such as the linear acceleration of the slider, ̈ , and the angular acceleration of
-the coupler, α3.
-equa
-Inversions<br>
-
-<img  height="355" src="../images/poscr6.png"  width="461"><br>
-
-Different mechanisms obtained by fixing different links of a kinematics chain are known as its
-inversions.
-A slider–crank chain has the following inversions: -
-1. First inversion (i.e., Reciprocating engine and compressor)
-2. Second inversion (i.e., Whitworth quick return mechanism and Rotary engine)
-3. Third inversion (i.e., Oscillating cylinder engine and crank & slotted – lever mechanism)
-4. Fourth inversion (Hand pump)
+$$\alpha_2=\frac{d\varpi_2}{dt},\alpha_3=\frac{d\varpi_3}{dt},\alpha_4=\frac{d\varpi_4}{dt}$$
 
 
 
-First Inversion
-In this type of inversion CE is held fixed and A rotates around C along a circle and B slides back and
-forth along CE.<br>
+if the time data, t, is available. Otherwise, with the knowledge of α<br>
+2, there are alternate methods of solving for the accelerations of links 3 and 4 as given below<br>
 
-<img  height="355" src="../images/poscr7.png"  width="461"><br>
+$$\alpha_3=-\frac{a\alpha_2\sin\left(\theta_4-\theta_2\right)-a\varpi_2^2\cos\left(\theta_4-\theta_2\right)-b\varpi_3^2\cos\left(\theta_4-\theta_3\right)-c\varpi_4^2}{b\sin\left(\theta_4-\theta_3\right)}$$
 
-
-<img  height="355" src="../images/poscr8.png"  width="461"><br>
-This is the most common type of inversion. It is used in reciprocating engine and compressor.
-
-Second Inversion
-In this type of inversion ‘C’ and ‘A’ are both held fixed and the link CE rotates in a circle
-around C. The slider B slides back and forth along the rotating CE.<br>
-
-
-<img  height="355" src="../images/poscr9.png"  width="461"><br>
-
-
-Whitworth Quick-Return Mechanism<br>
-In this inversion of the slider-crank the slider guide link is made to rotate. This is called a quick-return
-mechanism. This linkage also converts rotary motion of the crank into oscillatory angular motion of
-the slider guide link. This mechanism is used in shaper machine tools for cutting metals. Joseph
-Whitworth was a 19th century British engineer and inventor.<br>
-
-<img  height="355" src="../images/poscr10.png"  width="461"><br>
-
-Third Inversion<br>
-In this type of inversion A and B are both held fixed but the slider is allowed to swivel.
-
-
-<img  height="355" src="../images/poscr11.png"  width="461"><br>
-
-<img  height="355" src="../images/poscr12.png"  width="461"><br>
-The oscillating cylinder engine is a form of a slider-crank mechanism. This mechanism is used often in door<br>
-damper mechanisms. In the 19th century the oscillating cylinder was used on steam locomotives.
-
-Fourth Inversion
-In this type of inversion the slider B is held fixed and CE slides back and forth through the slider.<br>
-
-<img  height="355" src="../images/poscr13.png"  width="461"><br>
+$$\alpha_4=-\frac{a\alpha_2\sin\left(\theta_3-\theta_2\right)-a\varpi_2^2\cos\left(\theta_3-\theta_2\right)-b\varpi_3^2-c\varpi_4^2\cos\left(\theta_4-\theta_3\right)}{c\sin\left(\theta_4-\theta_3\right)}$$
 
 
 </p>
@@ -594,7 +503,7 @@ table.MsoNormalTable
                             'font: 7pt "Times New Roman";'>&nbsp;&nbsp;</span></span></span>
                             <span lang="EN-IN" style=
                             'font-size: 12pt; font-family: "Verdana","sans-serif";'>
-                           </span></p>
+                         .</span></p>
 
                             <p class="PreformattedText"><span lang="EN-IN"
                             style=
@@ -643,7 +552,7 @@ table.MsoNormalTable
                             "margin-bottom: 0.0001pt; line-height: 150%;">
                             <span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                            </span></p>
+                           </span></p>
 
                             <p class="MsoNormal" style=
                             "margin-bottom: 0.0001pt; line-height: 150%;">
@@ -681,7 +590,7 @@ table.MsoNormalTable
                             "margin-bottom: 13.5pt; line-height: 150%;">
                             <span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                           </span></p>
+                            </span></p>
 
                             <p class="MsoNormal" style=
                             "margin-bottom: 13.5pt; line-height: 150%; text-align: center;">
@@ -702,8 +611,7 @@ font-family:"Times New Roman","serif";
 mso-fareast-font-family:"Times New Roman";}
 &lt;/style&gt;
 &lt;![endif]--><span style=
-'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>Where
-'R' is resistance of the metal,</span> <span class="apple-converted-space">
+'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'></span> <span class="apple-converted-space">
                             <span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
                             '</span></span><span style=
@@ -1059,8 +967,8 @@ mso-fareast-font-family:"Times New Roman";}
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
                             &nbsp;Resistance Temperature Detector
                             (RTD)</span></b><span style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'><br></span><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'><br></span><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-                          </span><span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'><br></span><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'><br></span><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>Resistance
+                           </span><span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>,
                             is used to determine temperature.</span></p>
 
@@ -1069,9 +977,8 @@ mso-fareast-font-family:"Times New Roman";}
                             <span style=
                             'font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
                             <br>
-                            
-                            <br>
- 
+                         
+ <section>
 
                 <section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
@@ -1086,9 +993,16 @@ mso-fareast-font-family:"Times New Roman";}
                     <div class="content" id=
                     "experiment-article-section-4-content">
                         <div class="divContent">
-                            <p><a href=
-                            "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">FreeVibrationSDOF_expN_ver2</a></p>
+                            <p><a href="./FreeVibrationSDOF_expN_ver2.swf"
+                            target="_blank">expN</a></p>
+                        </div>
+			<div class="divContent">
+                            <p><a href= "./FreeVibrationSDOF_expN_ver2.swf"
+                            target="_blank">expR</a></p>
+                        </div>
+			<div class="divContent">
+                            <p><a href= "./FreeVibrationSDOF_expN_ver2.swf"
+                            target="_blank">expT</a></p>
                         </div>
                     </div>
 
@@ -1128,7 +1042,8 @@ mso-pagination:widow-orphan;
 font-size:10.0pt;
 font-family:"Times New Roman","serif";}
 &lt;/style&gt;
-&lt;![endif]--><big></big></h3>
+&lt;![endif]--><big>Click on simulator tab and log in for working with
+simulator. The procedure for using simulator is as follows:</big></h3>
 
                             <h3 style="color: red;"><big>
                             <!--[if gte mso 9]&gt;&lt;xml&gt;
@@ -1180,9 +1095,148 @@ mso-bidi-theme-font:minor-bidi;}
                             <p class="MsoNormal" style="line-height: 150%;">
                             <span lang="EN-IN" style=
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-<img  height="1600" src="../images/slidercrank_pos_procedure_ver01.jpg"  width="800"><br>
 
-    </span></p>
+
+Free Vibration Of Cantilever Beam    Procedure 
+There Are Three Modes Of Simulation Provided (i) Explain (expN) (ii) Explore (expR) And (iii) Experiemnt (expT)
+
+Explain (expN):  The Simulation Is Explained With Narration, How To Use The Simulation, It Is A Self-Running Demo Or A Talking Tutorial.
+
+Explore (expR): Where In The User Is Allowed To Vary All The Parameter And Try Out How The Result Is Varying And Explore All The Possible Combinations.
+
+Experiment (expT): A Selected Few Parameters Are User Modifiable And Few Parameters Are Set By The System. Then The User Is Asked Run The Experiment And Based On The Observation, Find Out The Numerical Value Of The Given Parameter And Submit The Results. The System Checks The Correctness Of The Value Entered. 
+
+Aim Of The Experiment: Determine The Natural Frequency Of A Given Beam, Repeat The Experiment For Various Cross Sections And Material Combination Along With Different Length Of The Beam.
+
+Procedure To Conduct The Experiment:
+The Following Parameters Can Be Changed In The Simulation Platform:
+Cross Section Of The Cantilever Beam.
+
+
+
+
+
+
+
+
+
+Material Of The Cantilever Beam.
+
+User Can Choose Own Material And Provide Required Material Property 
+Effective Length Of Cantilever Beam. 
+The Results That We Arrive At Are:
+Natural Frequency Of The System.
+
+
+In The Explore (expR) Mode Of Simulation For Any Given Combination Of Material, Cross Section And Beam Length, System Calculate The Natural Frequency And Give To The User.
+In The Experiment (expT) Mode, User Can Choose Material, Cross Section And Length Of The Beam, The System Calculates Mass And Area Moment And Display, User Is Expected To Calculate The Natural Frequency And Enter The Calculated Value And Submits The Answer. The Correctness Of The Answer Will Be Informed To The User.
+
+Observation 
+Slno
+Cross Section
+Section Property (b,h, Or Diameter )
+Length
+Young’s Modulus (E)
+Density ()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Calculations
+Slno
+Area (A)
+Area Moment (I)
+Mass (M )
+Stiffness (K)
+Natural Frequency (N)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Inference And Conclusions
+{find Out How The Natural Frequency Varies With Each Of The Variables , And Write In Your Own Word The Collusion From The Experiment}
+
+Further Reading Beyond This Experiment:
+Effective Mass Of A Continuous System
+In An Experimental Set Up However, The Cantilever Beam Acts As A Continuous Mass System. Hence An Effective Mass For The System Needs To Be Calculated.
+By Referring To Http://Teaching.Ust.Hk, We Have Arrived At The Following Soln. For The Effective Mass.
+
+Where
+M= End Mass (sensing Element Etc.) (kg)
+  = Mass Density Of Material Of Cantilever System (mass/unlit Length)(Kg/M)
+ = Length Of The Cantilever Beam (m)
+
+Energy Consuming Element – Damping 
+If We Introduce Energy Consuming Element Called Damping Then The Equation Get Modified To 
+ ;  
+Where
+X = Displacement Of The Free End Of The Cantilever Beam (m)
+C = Damping Present In The System (Kg/s)
+ = Damping Coefficient Of The System
+The Solution For Sdof Damped Free Vibration Governing Equation 
+The Solution To The Above System Changes Depending On The Initial Conditions = Initial Displacement And  = Initial Velocity, The Damping Coefficient =  
+
+Let Us Consider The 3 Cases:
+Case 1:   = Damping Coefficient < 1 (Underdamped Systems.)
+
+
+
+
+Where = Damped Natural Frequency = 
+
+Case 2:   = Damping Coefficient = 1 (Critically Damped Systems.)
+
+
+
+Case 3:   = Damping Coefficient > 1 (Overdamped Systems.)
+ 
+
+
+
+
+
+
+                            </span></p>
 
                             <p class="MsoNormal" style="line-height: 150%;">
                             <b><span lang="EN-IN" style=
@@ -1200,7 +1254,10 @@ mso-bidi-theme-font:minor-bidi;}
                                 <li class="MsoNormal" style=
                                 "line-height: 150%;"><span lang="EN-IN" style=
                                 'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                               </span></li>
+                                Select the <strong>material</strong> of RTD you
+                                want to use.&nbsp; Temperature coefficient (α)
+                                for the same will be displayed on the screen.
+                                Note this value.</span></li>
                             </ol>
 
                             <p class="MsoNormal" style="line-height: 150%;">
@@ -1212,7 +1269,9 @@ mso-bidi-theme-font:minor-bidi;}
                                 <li class="MsoNormal" style=
                                 "line-height: 150%;"><span lang="EN-IN" style=
                                 'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                               </span></li>
+                                Click on ' <strong>R<sub>0</sub></strong>' to
+                                get the value of R<sub>0</sub> for selected
+                                RTD. Note the same.</span></li>
                             </ol>
 
                             <p class="MsoNormal" style="line-height: 150%;">
@@ -1224,7 +1283,9 @@ mso-bidi-theme-font:minor-bidi;}
                                 <li class="MsoNormal" style=
                                 "line-height: 150%;"><span lang="EN-IN" style=
                                 'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                                </span></li>
+                                Click on '<strong>Get Temp</strong>'. The
+                                temperature for which R<sub>t</sub> is to be
+                                found will be displayed.</span></li>
                             </ol>
 
                             <p class="MsoNormal" style="line-height: 150%;">
@@ -1232,15 +1293,19 @@ mso-bidi-theme-font:minor-bidi;}
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
                             &nbsp;</span></p>
 
-                            <ol start="4" type="">
+                            <ol start="4" type="1">
                                 <li class="MsoNormal" style=
                                 "line-height: 150%;"><span lang="EN-IN" style=
                                 'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                               </span> <span lang="EN-IN" style=
+                                Using&nbsp; formula calculate the value of
+                                R<sub>t</sub> and enter the answer in the box
+                                provided</span> <span lang="EN-IN" style=
                                 'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                               </span><span lang="EN-IN" style=
+                                (upto 2 decimals with rounding
+                                off)</span><span lang="EN-IN" style=
                                 'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>.
-                                <strong><br></span></li>
+                                <strong>Submit the answer</strong> using submit
+                                button.<br></span></li>
                             </ol>
 
                             <p class="MsoNormal" style="line-height: 150%;">
@@ -1252,7 +1317,8 @@ mso-bidi-theme-font:minor-bidi;}
                                 <li class="MsoNormal" style=
                                 "line-height: 150%;"><span lang="EN-IN" style=
                                 'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                               </span></li>
+                                If your calculation is correct, go to step 3.
+                                Repeat the procedure min 3 times.</span></li>
                             </ol>
 
                             <p class="MsoNormal" style="line-height: 150%;">
@@ -1264,7 +1330,10 @@ mso-bidi-theme-font:minor-bidi;}
                                 <li class="MsoNormal" style=
                                 "line-height: 150%;"><span lang="EN-IN" style=
                                 'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                               <br></span></li>
+                                If your calculation is wrong, you will be asked
+                                to repeat the same. Please refer to
+                                <strong>GET&nbsp;FORMULA</strong> tab and
+                                verify your calculations.<br></span></li>
                             </ol>
 
                             <p class="MsoNormal" style="line-height: 150%;">
@@ -1276,8 +1345,9 @@ mso-bidi-theme-font:minor-bidi;}
                                 <li class="MsoNormal" style=
                                 "line-height: 150%;"><span lang="EN-IN" style=
                                 'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                              
-                                '<strong></strong>.</span></li>
+                                After finishing minimum 3 set of correct
+                                readings, you can see the graph by clicking on
+                                '<strong>Plot'</strong>.</span></li>
                             </ol>
 
                             <p class="MsoNormal" style="line-height: 150%;">
@@ -1289,7 +1359,11 @@ mso-bidi-theme-font:minor-bidi;}
                                 <li class="MsoNormal" style=
                                 "line-height: 150%;"><span lang="EN-IN" style=
                                 'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                               </span></li>
+                                When the graph is displayed click
+                                <strong>Next</strong> tab to repeat the
+                                procedure with different reference
+                                resistance(R<sub>0</sub>) value and with&nbsp;
+                                different materials.</span></li>
                             </ol>
 
                             <p class="MsoNormal" style="line-height: 150%;">
@@ -1301,7 +1375,8 @@ mso-bidi-theme-font:minor-bidi;}
                                 <li class="MsoNormal" style=
                                 "line-height: 150%;"><span lang="EN-IN" style=
                                 'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                                <br></span></li>
+                                Minimum 3 calculations are necessary to plot
+                                the graph.<br></span></li>
                             </ol>
 
                             <p class="MsoNormal" style="line-height: 150%;">
@@ -1313,7 +1388,9 @@ mso-bidi-theme-font:minor-bidi;}
                                 <li class="MsoNormal" style=
                                 "line-height: 150%;"><span lang="EN-IN" style=
                                 'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                               </span></li>
+                                Study the graphs for RTD performance &nbsp;with
+                                different reference resistance values and
+                                different materials</span></li>
                             </ol>
 
                             <p class="MsoNormal" style="line-height: 150%;">
@@ -1347,7 +1424,9 @@ mso-bidi-theme-font:minor-bidi;}
 
                                             <td colspan="2" style=
                                             "vertical-align:top;" width="70%">
-                                            <span id="question"></span></td>
+                                            <span id="question">RTD is very
+                                            popular for temperature measurement
+                                            because of</span></td>
 
                                             <td colspan="3" width="3%">
                                             &nbsp;</td>
@@ -1374,7 +1453,7 @@ mso-bidi-theme-font:minor-bidi;}
                                                         style=
                                                         "padding-left:3px;">
                                                         <label for=
-                                                        "ans6058"></label></td>
+                                                        "ans6058">Cost</label></td>
                                                     </tr>
 
                                                     <tr>
@@ -1390,7 +1469,8 @@ mso-bidi-theme-font:minor-bidi;}
                                                         style=
                                                         "padding-left:3px;">
                                                         <label for=
-                                                        "ans6057"></label></td>
+                                                        "ans6057">Self
+                                                        heating</label></td>
                                                     </tr>
 
                                                     <tr>
@@ -1406,7 +1486,7 @@ mso-bidi-theme-font:minor-bidi;}
                                                         style=
                                                         "padding-left:3px;">
                                                         <label for=
-                                                        "ans6059"></label></td>
+                                                        "ans6059">Linearity</label></td>
                                                     </tr>
                                                 </table>
                                             </td>
@@ -1430,8 +1510,9 @@ mso-bidi-theme-font:minor-bidi;}
 
                                             <td colspan="2" style=
                                             "vertical-align:top;" width="70%">
-                                            <span id="question">
-                                            </span></td>
+                                            <span id="question">In the Pt100,
+                                            the suffix 100 refers
+                                            to</span></td>
 
                                             <td colspan="3" width="3%">
                                             &nbsp;</td>
@@ -1458,7 +1539,9 @@ mso-bidi-theme-font:minor-bidi;}
                                                         style=
                                                         "padding-left:3px;">
                                                         <label for=
-                                                        "ans6061"></label></td>
+                                                        "ans6061">Resistance at
+                                                        Room
+                                                        Temperature</label></td>
                                                     </tr>
 
                                                     <tr>
@@ -1474,7 +1557,8 @@ mso-bidi-theme-font:minor-bidi;}
                                                         style=
                                                         "padding-left:3px;">
                                                         <label for=
-                                                        "ans6060"></label></td>
+                                                        "ans6060">100% pure
+                                                        platinum</label></td>
                                                     </tr>
 
                                                     <tr>
@@ -1490,7 +1574,8 @@ mso-bidi-theme-font:minor-bidi;}
                                                         style=
                                                         "padding-left:3px;">
                                                         <label for=
-                                                        "ans6062"></label></td>
+                                                        "ans6062">Resistance at
+                                                        0 degree C</label></td>
                                                     </tr>
                                                 </table>
                                             </td>
