@@ -376,126 +376,75 @@ mso-fareast-font-family:"Times New Roman";}
 &lt;/style&gt;
 &lt;![endif]--></p>
 
-                            <p class="MsoNormal" style="line-height:150%;">
-<h3>Position analysis of slider crank mechanism</h3>
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            
+After completing this simulation experiment one should be able to</p></br>
+	Model a given real system to an equivalent simplified model of a cantilever beam with suitable assumptions / idealisations</br>
+	Calculate the stiffness of a real system which is assumed to be equivalent of a cantilever beam</br>
+	Determine the mass of the system actively participating in dynamics</br>
+	Determine the natural frequency of a given system equated to a cantilever beam</br>
+	Determine the influence of material properties like Youngs modules (E) and density  ( ) in dynamics</br>
+	Determine the influence of cross section, length of cantilever beam  in dynamics</br>
 
-<img style="height:50px; width:50px;" src="../images/poscr1.png" >
+<h3 style="color:#997e11">
+Cantilever Beam Introduction</h3></br>
+Look at the few of the real systems shown below,try to make suitable assumptions to deduce the system to a cantilever beam.</br>
+<h4>An aircraft wing as a cantilever beamAn atomic force probe 
+</h4>
+</p>
+</br>
+<p><img src="../images/frvb1.png" alt="HTML5 Icon"  class="figure">
 
-Learning objectives
-
-After completing this simulation experiment one should be able to
-
- Determine the location of the piston of a reciprocating engine or compressor at
-   any given crank angle, for a given crank and connecting rod length
-  Determine the swing angle of connecting rod of a slider crank mechanism
- Determine the minimum bore diameter required for a given
- Explain the effect of
-ratio
-ratio
-Basic theory is given under different subsections in the same document.
-
-Slider crank mechanism
-analysis
-Inversions
-Fourth inversion
-Position analysis
-First inversion
-Velocity analysis
-Second inversion
-Acceleration
-Third inversion
-Slider Crank Mechanism
-The slider-crank mechanism is one of the most useful mechanisms in modern technology since it
-appears in most of the internal combustion engines including automobiles, trucks and small engines.
-The slider-crank kinematic chain consists of four bodies linked with three cylindrical joints and one
-sliding or prismatic joint. It is used to change circular into reciprocating motion, or reciprocating into
-circular motion.<br>
+<img src="../images/frvb2.png" alt="HTML5 Icon"   class="figure"></br>
 
 
-<img  height="355" src="../images/poscr2.png"  width="461"><br>
+</p>
+
+<h4>A tower crane  overhang is like a cantilever beam</h4>
+<p><img src="../images/frvb3.png" alt="HTML5 Icon"  class="figure">
+
+<img src="../images/frvb4.png" alt="HTML5 Icon"   class="figure"></br>
 
 
-The arm may be a bent portion of the shaft, or a separate arm attached to it. Attached to the end of
-the crank by a pivot is a rod, usually called a connecting rod. The end of the rod attached to the
-crank moves in a circular motion, while the other end is usually constrained to move in a linear
-Position Analysis
-<img  height="355" src="../images/poscr3.png"  width="461"><br>
-Figure 1 shows a slider-crank mechanism in which the stroke-line of the slider doesn’t pass
-through the axis of rotation of the crank. θ3 in clockwise direction from x-axis is taken as
-negative.
-Then,
-equa
-Velocity Analysis<br>
+</p>
 
-<img  height="355" src="../images/poscr4.png"  width="461"><br>
+<p>
+	
+A system is said to be a cantilever beam system if one end of the system is rigidly fixed to a support and the other end is free to move.</br>
+Vibration analysis of a cantilever beam system is important as it can explain and help us analyse a number of real life systems. The following</br>
+ few examples can be simplified to a cantilever beam, thereby helping us make design changes accordingly for the most efficient systems.</br>
+
+To understand the effect of free vibration on the cantilever beam, we need to understand and calculate the following parameters.</br>
+	Stiffness of the cantilever beam.</br>
+	Mass of the cantilever beam.</br> 
+We can determine the stiffness of the system through simple equations from strength of material. </br> 
+$$K=\frac{3EI}{L^3}$$ </br> 
+Where</br> </br>
+K = Stiffness of system. (N/m)</br>
+E = Young s Modulus of the material. ($\begin{array}{l}\frac N{M^2}\\\\\\\\\;\;\end{array}$)</br>
 
 
-Let ̇ be the velocity of the slider, and ω3 be the angular velocity of the coupler link. Then,
-from the data gleaned from the position analysis and the crank velocity, ω2, we have
-equa
-Acceleration Analysis<br>
+I = Area moment of inertia.$\begin{array}{l}\;\;(m^4)\\\\\\\\\;\;\end{array}$</br>
+L = Effective length of Cantilever Beam (m)</br>  </br>
 
-<img  height="355" src="../images/poscr5.png"  width="461"><br>
+Assumptions made during modelling and analysis:</br>
+	The mass (M) of the whole system is considered to be lumped at the free end</br>
+	No energy consuming element (damping ) present in the system ie. undamped vibration </br>
+	The complex cross section and type of material of the real system has been simplified to equate to a cantilever beam</br>
 
-Differentiating the earlier equations from velocity analysis, we end up with the acceleration
-data of the slider crank. With the prior knowledge of the angular acceleration of the crank, α2,
-the parameters such as the linear acceleration of the slider, ̈ , and the angular acceleration of
-the coupler, α3.
-equa
-Inversions<br>
-
-<img  height="355" src="../images/poscr6.png"  width="461"><br>
-
-Different mechanisms obtained by fixing different links of a kinematics chain are known as its
-inversions.
-A slider–crank chain has the following inversions: -
-1. First inversion (i.e., Reciprocating engine and compressor)
-2. Second inversion (i.e., Whitworth quick return mechanism and Rotary engine)
-3. Third inversion (i.e., Oscillating cylinder engine and crank & slotted – lever mechanism)
-4. Fourth inversion (Hand pump)
+The fundamental natural frequency w , by definition is</br></br>
 
 
 
-First Inversion
-In this type of inversion CE is held fixed and A rotates around C along a circle and B slides back and
-forth along CE.<br>
+$\omega_n=\sqrt{\frac KM}(radians/second)$</br></br>
 
-<img  height="355" src="../images/poscr7.png"  width="461"><br>
-
-
-<img  height="355" src="../images/poscr8.png"  width="461"><br>
-This is the most common type of inversion. It is used in reciprocating engine and compressor.
-
-Second Inversion
-In this type of inversion ‘C’ and ‘A’ are both held fixed and the link CE rotates in a circle
-around C. The slider B slides back and forth along the rotating CE.<br>
+Since the cantilever beam is undergoing free vibration, the governing differential equation of the system considering undamped free vibration can be given by</br></br>
+$M\overset{..}x+Kx=0\;;\;\overset{}{\overset{..}x+\omega_n^2}x\;=0$</br></br>
+Lets try to understand these equations by doing a few simple simulations, go to next tab procedure</br>
+ to find out how to run the simulation to EXPLORE (expR) and to EXPERIMENT (expT). A talking</br>
+  tutorial or a self-running demo with narration can be seen at EXPLAIN (expN)</br>
 
 
-<img  height="355" src="../images/poscr9.png"  width="461"><br>
-
-
-Whitworth Quick-Return Mechanism<br>
-In this inversion of the slider-crank the slider guide link is made to rotate. This is called a quick-return
-mechanism. This linkage also converts rotary motion of the crank into oscillatory angular motion of
-the slider guide link. This mechanism is used in shaper machine tools for cutting metals. Joseph
-Whitworth was a 19th century British engineer and inventor.<br>
-
-<img  height="355" src="../images/poscr10.png"  width="461"><br>
-
-Third Inversion<br>
-In this type of inversion A and B are both held fixed but the slider is allowed to swivel.<br>
-
-
-<img  height="355" src="../images/poscr11.png"  width="461"><br>
-
-<img  height="355" src="../images/poscr12.png"  width="461"><br>
-The oscillating cylinder engine is a form of a slider-crank mechanism. This mechanism is used often in door<br>
-damper mechanisms. In the 19th century the oscillating cylinder was used on steam locomotives.
-
-Fourth Inversion
-In this type of inversion the slider B is held fixed and CE slides back and forth through the slider.<br>
-
-<img  height="355" src="../images/poscr13.png"  width="461"><br>
 
 
 </p>
@@ -1093,6 +1042,18 @@ mso-fareast-font-family:"Times New Roman";}
                             <p><a href= "./FreeVibrationSDOF_expN_ver2.swf"
                             target="_blank">expT</a></p>
                         </div>
+			<div class="divContent">
+                            <p><a href= "./FreeVibrationSDOF_expN_ver2.swf"
+                            target="_blank">expT</a></p>
+                        </div>
+			<div class="divContent">
+                            <p><a href= "./FreeVibrationSDOF_expN_ver2.swf"
+                            target="_blank">expT</a></p>
+                        </div>
+			<div class="divContent">
+                            <p><a href= "./FreeVibrationSDOF_expN_ver2.swf"
+                            target="_blank">expT</a></p>
+                        </div>
                     </div>
 
 			
@@ -1162,12 +1123,11 @@ mso-bidi-theme-font:minor-bidi;}
 
                             <h3 style="color: red;">&nbsp;</h3>
 
-                           <p class="MsoNormal" style="line-height: 150%;">
+                            <p class="MsoNormal" style="line-height: 150%;">
                             <span lang="EN-IN" style=
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-<img  height="1600" src="../images/slidercrank_pos_procedure_ver01.jpg"  width="800"><br>
+                            &nbsp;<b>Expt. 1:  MDV_Expt1_Procedure_FreeVib_CantiBeam-kvg-ver01</b></span></p>
 
-    </span></p>
                             <p class="MsoNormal" style=
                             "font-weight: bold; line-height: 150%"><span lang=
                             "EN-IN" style=
@@ -1186,145 +1146,60 @@ mso-bidi-theme-font:minor-bidi;}
                             <span lang="EN-IN" style=
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
 
-
-Free Vibration Of Cantilever Beam    Procedure <br>
-There Are Three Modes Of Simulation Provided (i) Explain (expN) (ii) Explore (expR) And (iii) Experiemnt (expT)<br>
-
-Explain (expN):  The Simulation Is Explained With Narration, How To Use The Simulation, It Is A Self-Running Demo Or A Talking Tutorial.<br>
-
-Explore (expR): Where In The User Is Allowed To Vary All The Parameter And Try Out How The Result Is Varying And Explore All The Possible Combinations.<br>
-
-Experiment (expT): A Selected Few Parameters Are User Modifiable And Few Parameters Are Set By The System. Then The User Is Asked Run The Experiment And Based On The Observation, Find Out The Numerical Value Of The Given Parameter And Submit The Results. The System Checks The Correctness Of The Value Entered. 
-
-Aim Of The Experiment: Determine The Natural Frequency Of A Given Beam, Repeat The Experiment For Various Cross Sections And Material Combination Along With Different Length Of The Beam.
-
-Procedure To Conduct The Experiment:
-The Following Parameters Can Be Changed In The Simulation Platform:
-Cross Section Of The Cantilever Beam.<br>
-
-
-
-
-
-
-
-
-
-Material Of The Cantilever Beam.<br>
-
-User Can Choose Own Material And Provide Required Material Property 
-Effective Length Of Cantilever Beam. 
-The Results That We Arrive At Are:
-Natural Frequency Of The System.
-
-
-In The Explore (expR) Mode Of Simulation For Any Given Combination Of Material, Cross Section And Beam Length, System Calculate The Natural Frequency And Give To The User.
-In The Experiment (expT) Mode, User Can Choose Material, Cross Section And Length Of The Beam, The System Calculates Mass And Area Moment And Display, User Is Expected To Calculate The Natural Frequency And Enter The Calculated Value And Submits The Answer. The Correctness Of The Answer Will Be Informed To The User.
-
-Observation 
-Slno
-Cross Section
-Section Property (b,h, Or Diameter )
-Length
-Young’s Modulus (E)
-Density ()<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Calculations
-Slno
-Area (A)
-Area Moment (I)
-Mass (M )
-Stiffness (K)<br>
-Natural Frequency (N)<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Inference And Conclusions<br>
-{find Out How The Natural Frequency Varies With Each Of The Variables , And Write In Your Own Word The Collusion From The Experiment}<br>
-
-Further Reading Beyond This Experiment:
-Effective Mass Of A Continuous System
-In An Experimental Set Up However, The Cantilever Beam Acts As A Continuous Mass System. Hence An Effective Mass For The System Needs To Be Calculated.<br>
-By Referring To Http://Teaching.Ust.Hk, We Have Arrived At The Following Soln. For The Effective Mass.
-
-Where
-M= End Mass (sensing Element Etc.) (kg)<br>
-  = Mass Density Of Material Of Cantilever System (mass/unlit Length)(Kg/M)<br>
- = Length Of The Cantilever Beam (m)<br>
-
-Energy Consuming Element – Damping 
-If We Introduce Energy Consuming Element Called Damping Then The Equation Get Modified To ; <br>
-Where
-X = Displacement Of The Free End Of The Cantilever Beam (m)
-C = Damping Present In The System (Kg/s)
- = Damping Coefficient Of The System
-The Solution For Sdof Damped Free Vibration Governing Equation<br> 
-The Solution To The Above System Changes Depending On The Initial Conditions = Initial Displacement And  = Initial Velocity, The Damping Coefficient = <br> 
-
-Let Us Consider The 3 Cases:<br>
-Case 1:   = Damping Coefficient < 1 (Underdamped Systems.)<br>
-
-
-
-
-Where = Damped Natural Frequency = <br>
-
-Case 2:   = Damping Coefficient = 1 (Critically Damped Systems.)<br>
-
-
-
-Case 3:   = Damping Coefficient > 1 (Overdamped Systems.)<br>
- 
-
-
-
-
-
-
+FREE VIBRATION SDOF SYSTEM - expT PROCEDURE
+AIM:
+To find the damping (c) of the given beam.
+PROCEDURE:
+Begin the experiment by clicking the start experiment button.</br>
+<img src="../images/frvpr1.png" alt="HTML5 Icon"  class="figure"></br>
+
+1. Find logarithmic decrement (δ) from displacement v/s time graph.
+The logarithmic decrement is defined as follows.
+δ=
+1
+x
+ln
+n
+x
+Here x and x refer to the displacements at the first and nth peak in the displacement v/s time
+graph. The displacements at the peaks can be found using the location slider.</br>
+<img src="../images/frpr2.png" alt="HTML5 Icon"  class="figure"></br>
+<img src="../images/frpr3.png" alt="HTML5 Icon"  class="figure"></br>
+2. Find the damping ratio (ζ) from the logarithmic decrement (δ). The damping ratio is given by</br>
+ζ=</br>
+<img src="../images/frpr4.png" alt="HTML5 Icon"  class="figure"></br>
+3. Find beam stiffness (k) N/m from Young’s modulus (E), area moment of inertia (I) and length (L).
+The stiffness for different beams is given below
+Cantilever beam
+Simply supported beam
+Fixed Fixed beam
+=
+=
+=
+3
+48
+192</br>
+<img src="../images/frpr5.png" alt="HTML5 Icon"  class="figure"></br>
+
+4. Find natural frequency (ωn) rad/s from ωd and ζ . ωd can found from the FFT in the graph</br>
+window.
+=
+1−</br>
+<img src="../images/frpr6.png" alt="HTML5 Icon"  class="figure"></br>
+
+5. Find equivalent mass (meq) kg from ωn and k.</br>
+=
+<img src="../images/frpr7.png" alt="HTML5 Icon"  class="figure"></br>
+
+6. Find critical damping (cc) Ns/m from meq and k.
+= 2√
+7. Find damping (c) Ns/m from Cc and ζ.
+=</br>
+<img src="../images/frpr8.png" alt="HTML5 Icon"  class="figure"></br>
+RESULT:</br>
+System damping ‘c’ has been found. The basic concepts in free vibration of SDOF systems are
+covered.
+<img src="../images/frpr9.png" alt="HTML5 Icon"  class="figure"></br>
                             </span></p>
 
                             <p class="MsoNormal" style="line-height: 150%;">
