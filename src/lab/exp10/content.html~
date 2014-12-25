@@ -7,7 +7,7 @@ edit -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Position analysis of offset slider crank mechanism </title>
 </head>
 
 <body>
@@ -41,7 +41,7 @@ edit -->
             <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
 
             <header class="heading" id="experiment-article-heading">
-               Acceleration analysis of Slider crank mechanism 
+               Position analysis of offset slider crank mechanism
             </header><!-- Navigation menu is useful to organize the view of 
       multiple sections inside the article-->
 

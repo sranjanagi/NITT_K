@@ -7,7 +7,7 @@ edit -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Velocity analysis of Scotch Yoke mechanism </title>
+    <title>Position analysis of elliptical trammel </title>
 </head>
 
 <body>
@@ -378,10 +378,10 @@ mso-fareast-font-family:"Times New Roman";}
                             <p class="MsoNormal" style="line-height: 150%;">
                             
 
-
 </p>
 
-    </section>                      
+                            
+
 
                 <section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
@@ -421,9 +421,50 @@ mso-fareast-font-family:"Times New Roman";}
                     "experiment-article-section-5-content">
                         <div class="divContent">
                           
-                           
+                            <h3 style="color: red;">&nbsp;</h3>
 
-                           
+                            <h3 style="color: red;">&nbsp;</h3>
+
+                            <h3 style="color: red;">
+                            <!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;w:WordDocument&gt;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin:0in;
+mso-para-margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Times New Roman","serif";}
+&lt;/style&gt;
+&lt;![endif]--><big></big></h3>
+
+                            <h3 style="color: red;"><big>
+                            <!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;w:WordDocument&gt;
+&lt;w:View&gt;Normal&lt;/w:View&gt;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin-top:0in;
+mso-para-margin-right:0in;
+mso-para-margin-bottom:10.0pt;
+mso-para-margin-left:0in;
+line-height:115%;
+mso-pagination:widow-orphan;
+font-size:11.0pt;
+font-family:"Calibri","sans-serif";
+mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;
+mso-hansi-font-family:Calibri;
+mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;}
+&lt;/style&gt;
+&lt;![endif]--></big></h3>
 
                             <h3 style="color: red;">&nbsp;</h3>
 
@@ -448,13 +489,173 @@ mso-fareast-font-family:"Times New Roman";}
                             <p class="MsoNormal" style="line-height: 150%;">
                             <span lang="EN-IN" style=
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
- 
+
 
                             </span></p>
 
-           </section>
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            Step by step Procedure</span></b><span lang="EN-IN"
+                            style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>:</span></p>
 
-                <section id="experiment-article-section-6">                
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <ol start="1" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                Select the <strong>material</strong> of RTD you
+                                want to use.&nbsp; Temperature coefficient (α)
+                                for the same will be displayed on the screen.
+                                Note this value.</span></li>
+                            </ol>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <ol start="2" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                Click on ' <strong>R<sub>0</sub></strong>' to
+                                get the value of R<sub>0</sub> for selected
+                                RTD. Note the same.</span></li>
+                            </ol>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <ol start="3" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                Click on '<strong>Get Temp</strong>'. The
+                                temperature for which R<sub>t</sub> is to be
+                                found will be displayed.</span></li>
+                            </ol>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <ol start="4" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                Using&nbsp; formula calculate the value of
+                                R<sub>t</sub> and enter the answer in the box
+                                provided</span> <span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                (upto 2 decimals with rounding
+                                off)</span><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>.
+                                <strong>Submit the answer</strong> using submit
+                                button.<br></span></li>
+                            </ol>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <ol start="5" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                If your calculation is correct, go to step 3.
+                                Repeat the procedure min 3 times.</span></li>
+                            </ol>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <ol start="6" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                If your calculation is wrong, you will be asked
+                                to repeat the same. Please refer to
+                                <strong>GET&nbsp;FORMULA</strong> tab and
+                                verify your calculations.<br></span></li>
+                            </ol>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <ol start="7" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                After finishing minimum 3 set of correct
+                                readings, you can see the graph by clicking on
+                                '<strong>Plot'</strong>.</span></li>
+                            </ol>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <ol start="8" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                When the graph is displayed click
+                                <strong>Next</strong> tab to repeat the
+                                procedure with different reference
+                                resistance(R<sub>0</sub>) value and with&nbsp;
+                                different materials.</span></li>
+                            </ol>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <ol start="9" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                Minimum 3 calculations are necessary to plot
+                                the graph.<br></span></li>
+                            </ol>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <ol start="10" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                Study the graphs for RTD performance &nbsp;with
+                                different reference resistance values and
+                                different materials</span></li>
+                            </ol>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'><br></span><span lang="EN-IN"
+                            style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>&nbsp;</span></p>
+
                             
 
                     <div class="heading" id=
