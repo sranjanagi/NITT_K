@@ -377,130 +377,7 @@ mso-fareast-font-family:"Times New Roman";}
 
                             <p class="MsoNormal" style="line-height: 150%;">
 
-Acceleration analysis of slider crank mechanism Theory<br>
- <img src="../images/poscr1.png">Learning objectives<br>
-After completing this simulation experiment one should be able to <br>
 
-
-
-
-
-<ul >
-<li>
-Determine the linear acceleration of the piston of a reciprocating engine <br>
-or compressor at any given crank angle,for a given crank and connecting rod length <br>
-</li>
-<li>Determine the angular acceleration of connecting rod<br>
-</li>
-<li>Determine the normal and tangential acceleration any given link in the slider<br>
-crank mechanism<br>
-</li>
-<li>
-
-Calculate the dynamic force at any given link cgat any given instance</li>
-<li>Explain the effect of ratio on different linkacceleration Basic theory is given under </li>
-</ul>
-different subsections in the same document.Slider crank mechanism Position analysis Velocity
-analysis Acceleration analysis
-Inversions
-First
-inversion Second inversion
-Third inversion
-Fourth inversion
-Slider Crank Mechanism<br>
-
-The slider crank mechanism is one of the most useful mechanisms in modern technology since it appears in most of the<br>
-internal combustion engines including automobiles, trucks and small engines.The slider crank kinematic chain <br>
-consists of four bodies linked with three cylindrical joints and one sliding or prismatic joint.It is used to<br>
-change circular into reciprocating motion, or reciprocating into circular motion.<br>
-<img  height="300" src="../images/accesr1.png"  width="400"><br>
-The arm may be a bent portion of the shaft, or a separate arm attached to it. Attached to the end of<br>
-
-
-the crank by a pivot is a rod, usually called a connecting rod. The end of the rod attached to the crank moves <br>
-in a circular motion, while the other end is usually constrained to move in a linear sliding motion, in and out.<br>
-Position Analysis<br>
-<img  height="300" src="../images/accesr2.png"  width="400"><br>
-Figure 1 shows a slider<br>
--
-crank mechanism in which the stroke<br>
--
-line of the slider doesn’t pass through the axis of rotation of the crank. θ3 in clockwise direction from x<br>
--axis is taken as negative Then,<br>
-d=\frac{-c_1\pm\sqrt{c_1^2-4c_2}}2<br>
-\theta_3=\pi+\sin^{-1}\frac{\left(c-a\sin\left(\theta_2\right)\right)}b<br>
-Where,
-c_1=-2ac\cos\left(\theta_3\right)<br>
-c_2=a^2-b^2+c^2-2ca\sin\left(\theta_2\right)<br>
-Velocity Analysis<br>
-<img  height="300" src="../images/accesr3.png"  width="400"><br>
-Acceleration analysis of slider crank mechanism<br>
-
-Velocity Analysis<br>
-Let be the velocity of the slider, and ω3 be the angular velocity of the coupler link. Then,<br>
-from the data gleaned from the position analysis and the crank velocity, ω2, we have<br>
-
-
-d=\frac{a\varpi_2\sin\left(\theta_3-\theta_2\right)}{\cos\left(\theta_3\right)}<br>
-
-\omega_3=\frac{a\omega_2\cos\left(\theta_2\right)}{\cos\left(\theta_3\right)}<br>
-
-Acceleration Analysis<br>
-
-<img  height="300" src="../images/accesr4.png"  width="400"><br>
-
-Differentiating the earlier equations from velocity analysis, we end up with the acceleration<br>
-data of the slider crank. With the prior knowledge of the angular acceleration of the crank, α<br>
-2,the parameters such as the linear acceleration of the slider,, and the angular acceleration of<br>
-the coupler, α3<br>
-
-
-
-\ddot d=\frac{a\alpha_2\sin\left(\theta_3-\theta_2\right)-a\omega_2^2\cos\left(\theta_3-\theta_2\right)-b\omega_3^2}{\cos\left(\theta_3\right)}<br>
-
-\alpha_3=\frac{a\alpha_2\cos\theta_2-a\omega_2^2\sin\theta_2-b\omega_3^2\sin\left(\theta_3\right)}{\cos\left(\theta_3\right)}<br>
-Inversions<br>
-<img  height="300" src="../images/accesr5.png"  width="400"><br>
-Different mechanisms obtained by fixing different links of a kinematics chain are known as its inversions.A slider–crank chain has the following inversions:<br>
--1. First inversion (i.e., Reciprocating engine and compressor)<br>
-2. Second inversion (i.e., Whitworth quick return mechanism and Rotary engine)<br>
-3. Third inversion (i.e., Oscillating cylinder engine and crank & slotted–lever mechanism)<br>
-4. Fourth inversion (Hand pump) <br>
-
-
-First Inversion<br>
-In this type of inversionCE is held fixed and A rotates around C along a circle and B slides back and forth along CE<br>
-<img  height="300" src="../images/accesr6.png"  width="400"><br>
-<img  height="300" src="../images/accesr7.png"  width="400"><br>
-This is the most common type of inversion. It is used in reciprocating engine and compressor.<br>
-
-Second Inversion <br>
-In this type of inversion ‘C’ and ‘A’ are both held fixed and the link CErotates in a circle<br>
-around C.The slider B slides back and forth along the rotating CE.<br>
-<img  height="300" src="../images/accesr8.png"  width="400"><br>
-
-Second Inversion<br>
-In this type of inversion ‘C’ and ‘A’ are both held fixed and the link CE<br>
-rotates in a circle around C. The slider B slides back and forth along the rotating CE.<br>
-Figure6
-: Second Inversion Whitworth Quick -Return Mechanism<br>
-In this inversion of the slider-crank the slider guide link is made to rotate. This is called a quick -return mechanism.<br>
-This linkage also converts rotary motion of the crank into oscillatory angular motion of the slider guide link.<br>
- This mechanism is used in shaper machine tools for cutting metals. Joseph Whitworth was a 19th century British<br>
- engineer and invento<br>
-<img  height="300" src="../images/accesr9.png"  width="400"><br>
-
-Third Inversion<br>
-
-<img  height="300" src="../images/accesr12.png"  width="400">
-<img  height="300" src="../images/accesr10.png"  width="400"><br>
-
-The oscillating cylinder engine is a form of a
-slider
--
-crank mechanism. This mechanism is used often in door damper mechanisms. In the 19th century the oscillating cylinder was used on steam locomotives.<br>
-Fourth Inversion<br>
-<img  height="300" src="../images/accesr11.png"  width="400"><br>
 </p>
                         <br>
  </section>
@@ -588,11 +465,10 @@ mso-bidi-theme-font:minor-bidi;}
 &lt;/style&gt;
 &lt;![endif]--></big></h3>
 
-                            <h3 style="color: red;">&nbsp;</h3>
+                        
 
                            
 
-<img  height="1169" src="../images/slidercrank_acc_procedure_ver01.jpg"  width="761"><br>
 
 </section>
                             
